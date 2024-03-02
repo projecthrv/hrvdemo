@@ -7,4 +7,4 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar",  "devWebHRV-0.0.1-SNAPSHOT.jar"] 
-CMD ["iisurl=https://hrvapp.onrender.com", "timerurl=https://hrvapp.onrender.com","mydebugtestflag"] 
+CMD ["iisurl=https://hrvapp.cleverapps.io", "timerurl=https://hrvapp.cleverapps.io","mydebugtestflag"] 
